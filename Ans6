@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+	       float x;
+	       scanf ("%f",&x);
+	       printf ("square root of x= ");
+	       printf ("%f",pow(x,0.5));
+	       
+	       
+	      return 0;
+}

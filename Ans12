@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+	float p,r,t,CI;
+	scanf("%f",&p);
+	scanf("%f",&r);
+	scanf("%f",&t);
+	printf("The compound interest for this principal amount is ");
+	printf("%f",CI=p*pow((1+r/100),t));
+	return 0;
+}

@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+        int x,y,z,w,d;
+	scanf("%d",&x);
+	printf ("given days is equal to ");
+	printf("%d",y=x/365,z=x%365);
+            printf(" years ");
+	printf("%d weeks ",w=z/7,d=z%7);
+	printf("%d days ", d);
+
+        return 0;
+}

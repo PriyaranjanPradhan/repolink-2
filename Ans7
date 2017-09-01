@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	       float a,b,c;
+	       scanf ("%f",&a);
+	       scanf ("%f",&b);
+	       scanf("%f",&c);
+	       printf("The third angle will be = ");
+	       printf ("%f",c=180-a-b);
+	       printf ("degrees");
+	       return 0;
+}

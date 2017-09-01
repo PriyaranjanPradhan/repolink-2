@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+	float p,c,b,m,e,t,A,pc;
+	scanf ("%f",&p);
+	scanf ("%f",&c);
+	scanf ("%f",&b);
+	scanf ("%f",&m);
+	scanf ("%f",&e);
+	printf("your total marks is ");
+	printf("%f",t=p+c+b+m);
+	scanf ("%f",&tot);
+	printf("\nThe average marks in each subject is");
+	printf("%f",A=tot/5);
+	printf("\nThe percentage of total marks out of 500 is ");
+	printf("%f",pc=tot/5);
+	printf (" percentage");
+	       
+	      return 0;
+}

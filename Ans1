@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	       float cm,m,km;
+	       scanf ("%f",&cm);
+	       scanf ("%f",&m);
+	       scanf ("%f",&km);
+	       printf ("%f",m=cm/100);
+	       printf ("meter");
+	       printf ("%f",km=cm/100000);
+	       printf ("kilometer");
+	       
+	      
+	return 0;
+}

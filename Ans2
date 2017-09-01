@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	       float c,F;
+	       scanf ("%f",&c);
+	       scanf ("%f",&F);
+	       printf ("the value of this temperature at farhenheit scale is ");
+	       printf ("%f",F=c*1.8+32);
+	       
+	      
+	return 0;
+}

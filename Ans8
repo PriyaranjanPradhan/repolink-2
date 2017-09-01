@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	       float b,h,a;
+	       scanf ("%f",&b);
+	       scanf ("%f",&h);
+	       scanf ("%f",&a);
+	       printf("The area of the triangle is = ");
+	       printf ("%f",a=b*h/2);
+	       printf("square units");
+	       
+	      
+	return 0;
+}
